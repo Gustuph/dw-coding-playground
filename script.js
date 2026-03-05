@@ -64,9 +64,17 @@ const fiveSyllables = [
   "hell or high water",
   "moods drown out the noise",
   "lets go get this bread",
-  "wish i was taller",
+  "wish I was taller",
   "taller is not me",
   "coding ain't for me",
+  "it's clobbering time",
+  "my way or get high",
+  "time to go to sleep",
+  "how bout we eat lunch",
+  "happy birthday kid",
+  "nothing personal"
+  "go and fuck yourself"
+  ""
 ];
 const sevenSyllables = [
   "depths just drown and fall beneath",
@@ -74,6 +82,7 @@ const sevenSyllables = [
   "the quick brown fox jumps over",
   "the lazy dog is there too",
   "I wish i had a big brain",
+  "scooby doo was a good dog",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
