@@ -12,14 +12,15 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "We're just disconnecting",
+  "You don't turn me on",
+  "It's not you, it's your device",
+  "It's like you don't have any memory",
+  "It's a matter of storage",
+  "You're moving out of range",
+  "There's another device",
+  "We're running out of power",
+  "We shouldn't data anymore",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -41,16 +42,16 @@ function addText(content) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFun() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addText("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addText("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addText("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addText("🍟🥨🌮🥗🍱");
+  if (x === "Gavlebocken") {
+    addText("Every year in the town of Gavle, Sweden, the town officials construct a giant straw goat. It's massive, usually 13 metres tall, and is standing for all to see from early December.The only problem is that every year, the people of Gavle make it their mission to destroy it.");
+  } else if (x === "PercyJackson") {
+    addText("I first read the Percy Jackson and the Olympians series when I was a preteen. And since it became a TV show, I have been thriving. The second season was beyond outstanding. The actors have really brought the characters to life, and I am buzzing as I wait for season 3");
+  } else if (x === "Wombats") {
+    addText("'Fuck our options and fuck the life plan, no more worry, I've killed it with both hands' - The Wombats 'Method to the Madness'");
+  } else if (x === "Lightspeed") {
+    addText("Light travels. Isn't that a crazy concept? I am constantly caught in the thought that on a cosmic level, what we're seeing is based on information that is years old. Even our sun, if it disappeared, the light of it and the gravity it holds us in would take 8 minutes to disappear.");
+  } else if (x === "CO33") {
+    addText("Clair Obscur: Expedition 33 was a game that I vibed with so heavily last year. It was exquisite. The combat was engaging without getting too difficult, the art was beautiful, it told an amazing story of grief and the toxic cycles we can find ourselves in, every element of it was perfect.");
   }
 }
 //end of dropdown function
@@ -72,9 +73,9 @@ const fiveSyllables = [
   "time to go to sleep",
   "how bout we eat lunch",
   "happy birthday kid",
-  "nothing personal"
-  "go and fuck yourself"
-  ""
+  "nothing personal",
+  "go and fuck yourself",
+  "way to go my guy"
 ];
 const sevenSyllables = [
   "depths just drown and fall beneath",
@@ -114,26 +115,81 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "AFL 2002 draft",
+  "Archive Of Our Own",
+  "Avatar: The Last Airbender",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "Blue Prince",
+  "Barbarian 5e",
+  "Beauty beyond compare",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "Cleric 5e",
+  "Cast of Percy Jackson TV show",
+  "Come with me and we'll see",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "Dropout.tv",
+  "Disney+",
+  "Don't bother hiding it from you",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "Ethernet switch",
+  "East and West Germany",
+  "Every mention makes me smile",
 
-  "fridge magnets",
+  "Frogs",
+  "Fellowship of the Ring",
+  "Forget how to forget",
+
+  "Gavlebocken",
+  "Grover Underwood",
+  "Get me out of my mind",
+
+  "History of the entire world, I guess",
+  "Hatsune Miku, what are you doing here?",
+  "How are you so perfect",
+
+  "Internet speed test",
+  "IKEA",
+  "I think about dying sometimes",
+
+  "JB Hi-Fi",
+  "Justice League",
+  "Just never let me go",
+
+  "Kingdom Come: Deliverance 2",
+  "Koutoufides gorilla ad",
+  "Keep me in your heart",
+
+  "Lego Batman",
+  "Lightspeed in m/s",
+  "Leave my body to join your soul",
+
+  "Miasma",
+  "Minecraft",
+  "More time less problems",
+
+  "Nostalgia",
+  "Nosferatu",
+  "Nostradamus saw you coming",
+
+  "Officeworks",
+  "Outlook",
+  "On my mind every hour every day",
+
+  "Percy Jackson",
+  "Paladin 5e",
+  "Please just let me be",
+
+  "Quantum entanglement",
+  "Queen",
+  "Quit scrambling my mind",
+
+  "Ranger 5e",
+  "Rogue 5e",
+  "Remind me of your touch",
+
+  "Superman",
+  "Streudel what is",
+  "Soft clothes and softer bodies",
 ];
 //search function (do not edit)
 function changeText(e) {
