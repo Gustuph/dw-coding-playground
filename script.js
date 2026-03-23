@@ -133,7 +133,7 @@ const words = [
 
   "Ethernet switch",
   "East and West Germany",
-  "Every mention makes me smile",
+  "Every mention of you makes me smile",
 
   "Frogs",
   "Fellowship of the Ring",
@@ -190,6 +190,34 @@ const words = [
   "Superman",
   "Streudel what is",
   "Soft clothes and softer bodies",
+
+  "The Wombats",
+  "Tarot Cards",
+  "Tell me why you hurt",
+
+  "Universal donor and recipient",
+  "University VFL team",
+  "Unearth history in our future",
+
+  "VELA space",
+  "Visitation rights",
+  "Verify my feelings",
+
+  "Wagon Wheels",
+  "Water Fire Earth Air",
+  "When is never guaranteed",
+
+  "X-Men 97 God imagery",
+  "Xbox Series X",
+  "Xeno means alien like my thoughts around you",
+
+  "Yard to Metre",
+  "YouTube",
+  "You is all I can think of that starts with Y",
+
+  "Zac Bailey",
+  "Zagreus",
+  "Zen"
 ];
 //search function (do not edit)
 function changeText(e) {
