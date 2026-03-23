@@ -159,8 +159,8 @@ h5 {
   text-align: left;
   background-color: #000000;
   background-image: url("./img/astronaut.avif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #c8c8c8;
-  font-family: "Source Code Pro", monospace;
+  color: #c20707;
+  font-family: "Roboto", monospace;
   font-size: 14px; 
 }
 
