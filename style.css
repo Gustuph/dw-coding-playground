@@ -35,8 +35,8 @@ h3 {
 /* font used for title of haiku - edit this */
 h4 {
   font-family: "Zen Dots", cursive;
-  font-size: 22px;
-  font-style: bold;
+  font-size: 20px;
+  font-style: normal;
   text-align: center;
 }
 
