@@ -249,15 +249,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "knights, commoners, heroes, wizards, chill dudes, lords, monarchs, flies, village people, ne'er do wells, interesting folk, rogues, tricksters, gods, attourneys general, marshals, soldiers, guards".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "meander through, investigate, pray for, sit down in, exclude, watch over, get lead through, waver at the edge of, light the entry to, negotiate, gamble outside, cast spells over, shoot arrows over, build in, hurry past".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "the acrid swamps, the palace gardens, endless planes of existence, the astral plane, seas of fire, starless skies, office buildings, parking garages, lemon orchards, vineyards of blood red grapes, a big church, school, those coral things that have the arms that wave around, the throne room, a dark hallway, grandiose libraries, verdant forests".split(
       ","
     );
 // set up the counter
